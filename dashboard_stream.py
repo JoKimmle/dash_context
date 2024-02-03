@@ -13,7 +13,7 @@ parameter_values = {
 }
 
 # Define the image directory
-image_directory = 'images'
+image_directory = 'images_raw_spectro'
 image_list = [f for f in os.listdir(image_directory) if f.endswith('.png')]
 
 # Use st.sidebar for sliders

@@ -4,7 +4,6 @@ from dash.dependencies import Input, Output
 import os
 import base64
 
-
 app = dash.Dash(__name__)
 
 # Define the parameter values and their configurations
